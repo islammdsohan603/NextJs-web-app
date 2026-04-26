@@ -14,6 +14,7 @@ import { authClient } from '@/lib/auth-client';
 
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+import SocailLink from '@/components/shared/SocailLink';
 
 const SignUpPage = () => {
   const route = useRouter();
@@ -127,6 +128,11 @@ const SignUpPage = () => {
               Create Account
             </Button>
           </Form>
+
+          {/* sosial  */}
+          <div>
+            <SocailLink />
+          </div>
 
           <div className="mt-6 text-center">
             <p className="text-sm text-slate-400">
