@@ -12,7 +12,7 @@ const Navbar = () => {
     <div>
       <header className="bg-linear-to-bl from-[#03045e] to-[#10002b] py-6">
         <nav className="flex items-center justify-between w-10/12 mx-auto">
-          <h1 className="text-lg font-bold">Auth</h1>
+          <h1 className="text-lg font-bold text-white">Auth</h1>
           <ul className="flex items-center gap-4">
             {navbar.map(navItem => (
               <NavbLink href={navItem.link} key={navItem.id}>
