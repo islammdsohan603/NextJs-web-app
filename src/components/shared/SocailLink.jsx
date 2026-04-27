@@ -8,13 +8,12 @@ const SocialLink = () => {
     const data = await authClient.signIn.social({
       provider: 'google',
     });
-    console.log(data, 'data');
   };
+
   const handleGitHubSign = async () => {
     const data = await authClient.signIn.social({
       provider: 'github',
     });
-    console.log(data, 'data');
   };
 
   return (
